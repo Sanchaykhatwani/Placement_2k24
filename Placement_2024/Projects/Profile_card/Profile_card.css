@@ -1,5 +1,8 @@
 body{
     background-color: rgb(98, 217, 98);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .main{
     width: 300px;
@@ -14,8 +17,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     background-color: rgb(202, 56, 56);
+    border-radius: 12px 12px 0 0 ;
 
 }
 img{
@@ -25,29 +29,14 @@ img{
 
     
 }
-.second h3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 23px;
-}
-.second h5{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0px;
-}
-div button{
-    border-radius: 12px;
-   width:100px;
-   height: 30px;
-  
-   
-}
-div button:hover{
-    cursor: pointer;
-}
-.pink{
-    background-color: rgb(216, 21, 54);
-}
 
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.second p a
+{
+    justify-content: space-between;
+}
