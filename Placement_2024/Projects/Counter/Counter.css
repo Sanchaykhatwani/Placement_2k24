@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+    
+    
+}
+.main{
+    background-color: rgb(225, 249, 249);
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h2{
+    font-size: 40px;
+}
+h1{
+    font-size: 35px;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
