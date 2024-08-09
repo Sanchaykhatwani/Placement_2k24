@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(68, 107, 180);
+
+}
+.main{
+    display: flex;
+}
+.first{
+    margin: 10% 4%;
+    color: white;
+    
+}
+h2{
+    font-size: 35px;
+   
+}
+.form{
+    margin: 10%;
+    width: 340px;
+    height: 430px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+.in{
+    width: 300px;
+    height: 25px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.msg{
+    width: 300px;
+    height: 80px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.sub{
+    margin-top: 40px;
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(240, 37, 71);
+    color: white;
+    cursor: pointer;
+
+}

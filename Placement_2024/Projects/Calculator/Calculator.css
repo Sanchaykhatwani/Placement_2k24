@@ -25,7 +25,7 @@ input{
     border-style: none;
     font-size: 20px;
     text-align: right;
-    
+    overflow: hidden;
     
     
 }
