@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Student-registration-form Student </title>
+    <link rel="stylesheet" href="Student_registration_form.css">
+</head>
+<body>
+    
+    <div class="main">
+        <h1>Student-Registration-Form</h1>
+        <form>
+
+          <div>  FirstName: <input type="text">(max 30 char)</div>
+          <div>  LastName: <input type="text">(max 30 char)</div>
+          <div>  DOB: <input type="date"></div>
+          <div>  Email-ID: <input type="email"></div>
+          <div>  Mobile: <input type="text">(10 digits only)</div>
+          <div>  Gender: Male<input type="radio" name="gender"> Female<input type="radio" name="gender"></div>
+          <div>  Address: <input type="text"></div>
+          <div>  City: <input type="text">(max 20 char)</div>
+          <div>  Pin-Code: <input type="text">(6 digit)</div>
+          <div>  State: <input type="text">(max 10 char)</div>
+          <div>  Country: 
+            <select value="ctr">
+            <option name="none" id="">None</option>
+            <option name="india" id="">India</option>
+            <option name="USA" id="">USA</option>
+            <option name="CHINA" id="">CHINA</option>
+            </select>
+          </div>
+          <div>  Hobbies: Drawing <input type="checkbox"> Singing <input type="checkbox">Coding <input type="checkbox"> Other <input type="checkbox"> </div>
+          <div>  Course: B.Tech<input type="radio" name="crs">BCA <input type="radio" name="crs"> </div>
+          <div class="btn">
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+          </div>
+
+        </form>
+    </div>
+    
+</body>
+</html>

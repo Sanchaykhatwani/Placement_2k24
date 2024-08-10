@@ -1,11 +1,11 @@
-function data(){
+function Data()
+{
+const N=document.getElementById("name").value;
+const E=document.getElementById("email").value;
+const P=document.getElementById("phone").value;
 
-   var a=document.getElementById("name").value;
-   var b=document.getElementById("email").value;
-   var c=document.getElementById("phone").value;
-
-  if(a=="" || b=="" ||  c==""){
-    alert("Fill all the fileds");
-  }
+if(N=="" || E=="" || P==""){
+  alert("fill all fields");
+}
 
 }
